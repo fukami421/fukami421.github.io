@@ -20,7 +20,7 @@ module.exports = {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/fukami421.github.io/favicon.ico' }],
   },
   /*
    ** Customize the progress-bar color
@@ -65,6 +65,7 @@ module.exports = {
     extend(config, ctx) { }
   },
   router: {
-    middleware: 'test'
+    middleware: 'test',
+    base: '/fukami421.github.io/'
   }
 }
