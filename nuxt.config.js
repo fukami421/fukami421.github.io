@@ -1,3 +1,9 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: 'fukami421.github.io'
+  }
+} : {}
+
 module.exports = {
   mode: 'spa',
   /*
