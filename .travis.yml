@@ -25,3 +25,4 @@ deploy:
   local-dir: dist // 対象ディレクトリ
   on:
     branch: gh-pages // 対象ブランチ
+    
