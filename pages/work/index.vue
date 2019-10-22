@@ -8,7 +8,7 @@
         <nuxt-link :to="`${parent_path}/Segalnet`" class="link_to_work">
           <img class="work_flex_area" src="~/assets/imgs/segalnet.png" />
         </nuxt-link>
-        <nuxt-link to="work/Slash Jump" class="link_to_work">
+        <nuxt-link :to="slush" class="link_to_work">
           <img class="work_flex_area" src="~/assets/imgs/slashjump.png" />
         </nuxt-link>
         <nuxt-link to="work/FlyFlyFly改" class="link_to_work">
@@ -40,7 +40,8 @@ export default {
     return {
       title: 'Hello World! This is Works View!',
       work_title: 'Works',
-      parent_path: this.$route.path
+      parent_path: this.$route.path,
+      slush: this.$route.path + '/Slash Jump'
     }
   }
 }
