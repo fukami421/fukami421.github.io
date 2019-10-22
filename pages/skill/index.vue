@@ -47,6 +47,10 @@
           </div>
           <div />
         </div>
+        <div class="flex_area skill_size rounded-circle vertical_middle">
+          <div class="h3 no_margin_bottom">Python</div>
+          <div />
+        </div>
       </div>
     </div>
   </div>
