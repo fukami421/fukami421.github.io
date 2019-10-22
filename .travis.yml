@@ -8,7 +8,7 @@ cache:
 
 branches:
   only:
-  - gh-pages
+  - develop_fukami
 
 install:
   - npm install
@@ -24,4 +24,4 @@ deploy:
   target-branch: master
   local-dir: dist
   on:
-    branch: gh-pages
+    branch: develop_fukami
