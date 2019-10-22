@@ -67,5 +67,15 @@ module.exports = {
   router: {
     middleware: 'test',
     base: '/fukami421.github.io/'
+  },
+  generate: {
+    routes: [
+      '/work/Segalnet',
+      '/work/Slash%20Jump',
+      '/work/FlyFlyFly改',
+      '/work/Peace%20For%20Train',
+      '/work/Ryustagram',
+      '/work/This%20Home%20Page',
+    ]
   }
 }
