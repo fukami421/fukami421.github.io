@@ -66,12 +66,12 @@
             <a class="item_value" href="https://www.youtube.com/embed/Q9UPGWtliUg">プレイ動画</a>
           </div>
           <div v-else-if="$route.params.id === 'Peace For Train'">
-            <div class="item_key">Frontend:</div>
+            <div class="item_key">Client Side:</div>
             <div class="item_value">Xamarin.Forms(C#, Xaml)</div>
-            <div class="item_key">Backend:</div>
+            <div class="item_key">Server Side:</div>
             <div class="item_value">Node.js</div>
             <div class="item_key">その他のツール:</div>
-            <div class="item_value">Node.js</div>
+            <div class="item_value">Azure</div>
             <div class="item_key">開発人数:</div>
             <div class="item_value">個人開発</div>
             <div class="item_key">制作期間:</div>
