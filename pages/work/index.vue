@@ -1,11 +1,11 @@
 <template>
   <div class="contents">
-    <PageAbout :title="title" />
+    <PageAbout :title="`テンプレート ${title}`" />
     <div class="works_about text-center">
       <h1 class="text-center">Works</h1>
       <hr class="line" align="center" color="black" />
       <div class="works_flex_areas d-flex justify-content-around flex-wrap">
-        <nuxt-link to="work/Segalnet" class="link_to_work">
+        <nuxt-link :to="`${parent_path}/Segalnet`" class="link_to_work">
           <img class="work_flex_area" src="~/assets/imgs/segalnet.png" />
         </nuxt-link>
         <nuxt-link to="work/Slash Jump" class="link_to_work">
@@ -34,13 +34,13 @@ import PageAbout from '~/components/PageAbout.vue'
 export default {
   components: {
     PageAbout
-    // WorkAbout
   },
   layout: 'default',
   data() {
     return {
       title: 'Hello World! This is Works View!',
-      work_title: 'Works'
+      work_title: 'Works',
+      parent_path: this.$route.path
     }
   }
 }
