@@ -71,11 +71,11 @@ module.exports = {
   generate: {
     routes: [
       '/work/Segalnet',
-      '/work/Slash%20Jump',
+      '/work/Slash Jump',
       '/work/FlyFlyFly改',
-      '/work/Peace%20For%20Train',
+      '/work/Peace For Train',
       '/work/Ryustagram',
-      '/work/This%20Home%20Page',
+      '/work/This Home Page',
     ]
   }
 }
