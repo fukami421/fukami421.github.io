@@ -1,11 +1,11 @@
 <template>
   <div class="contents">
-    <PageAbout :title="`テンプレート ${title}`" />
+    <PageAbout :title="`${title}`" />
     <div class="works_about text-center">
       <h1 class="text-center">Works</h1>
       <hr class="line" align="center" color="black" />
       <div class="works_flex_areas d-flex justify-content-around flex-wrap">
-        <nuxt-link :to="`${parent_path}/Segalnet/`" class="link_to_work">
+        <nuxt-link :to="`${$route.path}/Segalnet/`" class="link_to_work">
           <img class="work_flex_area" src="~/assets/imgs/segalnet.png" />
         </nuxt-link>
         <nuxt-link :to="slush" class="link_to_work">
