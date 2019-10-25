@@ -1,6 +1,6 @@
 <template>
   <div class="contents">
-    <PageAbout :title="title" />
+    <PageAbout :title="`${title}`" />
     <div class="works_about">
       <WorkAbout />
       <div class="work_content">
@@ -148,7 +148,7 @@ export default {
   layout: 'default',
   data() {
     return {
-      title: this.$route.params.id,
+      title: 'Hello World! This is ' + this.$route.params.id + ' View!',
       work_title: 'idに対応したプロジェクト名'
     }
   }
