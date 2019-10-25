@@ -148,7 +148,7 @@ export default {
   layout: 'default',
   data() {
     return {
-      title: 'Hello World! This is idに対応したプロジェクト名 View!',
+      title: this.$route.params.id,
       work_title: 'idに対応したプロジェクト名'
     }
   }
