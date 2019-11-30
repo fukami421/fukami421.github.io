@@ -21,6 +21,7 @@ export default {
   width: 100%;
   height: 7vh;
   background-color: aquamarine;
+  bottom: 0%;
 }
 
 .content {

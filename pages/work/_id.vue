@@ -1,5 +1,5 @@
 <template>
-  <div class="contents">
+  <div class="_contents">
     <PageAbout :title="`${title}`" />
     <div class="works_about">
       <WorkAbout />
@@ -67,7 +67,7 @@
           </div>
           <div v-else-if="$route.params.id === 'Peace For Train'">
             <div class="item_key">Client Side:</div>
-            <div class="item_value">Xamarin.Forms(C#, Xaml)</div>
+            <div class="item_value">Xamarin.Forms(C#, Xaml) -> Swift</div>
             <div class="item_key">Server Side:</div>
             <div class="item_value">Node.js</div>
             <div class="item_key">その他のツール:</div>
@@ -107,6 +107,10 @@
             <a
               href="https://www.youtube.com/watch?v=MCRb9YABNeE"
             >トランポリンマリオ</a>を模倣して、マリオをりんご、ゴールをワニに変えて作りました。
+            <br />
+            <br />github:
+            <br />
+            <a href="https://github.com/fukami421/SlashJump">url</a>
           </div>
           <div v-else-if="$route.params.id === 'FlyFlyFly改'" class="work_description">
             概要:
@@ -117,6 +121,14 @@
             概要:
             <br />普段通勤などで電車に乗っているときに、席を譲られるべき人(高齢者や障害者)が席に座れずに、若者が座っているという状況に直面することは時折あると思います。このアプリはそういった、本来席を譲られるべき人に向けて作りました。
             アプリの概要としましては、ユーザー登録(DBと紐付いています)を完了しているユーザーがログイン後、"席を譲ってほしい"または"席を譲ってあげたい"のどちらかを選択することができ、選択肢によって異なるBeacon(異なるUuIDを設定することで、異なる種のBeaconを発信することができます)を発信します。ここでお互いがBeaconを取得できれば、席の交換を開始します。しかし、電車の中で相手がどこらへんの位置にいるのか把握するのは難しいと思います。ここで、Beaconによって相手までの距離を測定し、相手を探します。その結果相手を認識することができれば、席の交換が成立です。
+            <br />
+            <br />url:
+            <br />まだリリース前のため、githubのURLは公開しておりませんが、開発に際して利用したライブラリに関する情報をqiitaにまとめましたので、そちらのURLを記載しておきます。
+            <br />
+            <a href="https://qiita.com/ryu1_f/items/c66bdf2e5548483c13a1">Xamarin.iOSでBeaconを観測する</a>
+            <br />アプリの仕様書
+            <br />
+            <a href="https://drive.google.com/open?id=1jwK8ekOvkycpfclH1Yr-9VatxCleuYaZ">仕様書</a>
           </div>
           <div v-else-if="$route.params.id === 'Ryustagram'" class="work_description">
             概要:
@@ -156,9 +168,10 @@ export default {
 </script>
 
 <style>
-.contents {
+._contents {
   width: 100%;
-  min-height: 100vh;
+  min-height: 120vh;
+  max-height: 130vh;
 }
 
 .line {
