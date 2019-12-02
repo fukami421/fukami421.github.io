@@ -23,6 +23,9 @@
         <nuxt-link to="work/This Home Page" class="link_to_work">
           <img class="work_flex_area" src="~/assets/imgs/homepage.png" />
         </nuxt-link>
+        <nuxt-link to="work/Eight Imitation" class="link_to_work">
+          <img class="work_flex_area" src="~/assets/imgs/Eight.png" />
+        </nuxt-link>
       </div>
     </div>
   </div>

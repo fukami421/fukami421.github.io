@@ -2,6 +2,11 @@
 自身のポートフォリオサイトです。(PC版のみ)
 https://fukami421.github.io/fukami421.github.io/
 
+## Execution command on local
+```terminal
+# npm run dev
+```
+
 ## Deploy command  
 ```command line
 $ npm run generate

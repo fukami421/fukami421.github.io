@@ -34,6 +34,11 @@
           class="work_img"
           src="~/assets/imgs/homepage.png"
         />
+        <img
+          v-if="$route.params.id === 'Eight Imitation'"
+          class="work_img"
+          src="~/assets/imgs/Eight.png"
+        />
         <img v-if="$route.params.id === 'bb8_'" class="work_img" src="~/assets/imgs/bb8_.jpg" />
         <div class="work_about">
           <div v-if="$route.params.id === 'Segalnet'">
@@ -95,6 +100,16 @@
             <div class="item_key">制作期間:</div>
             <div class="item_value">3日間</div>
           </div>
+          <div v-else-if="$route.params.id === 'Eight Imitation'">
+            <div class="item_key">使用ツール:</div>
+            <div class="item_value">Swift</div>
+            <div class="item_key">開発人数:</div>
+            <div class="item_value">個人開発</div>
+            <div class="item_key">制作期間:</div>
+            <div class="item_value">1日</div>
+            <div class="item_key">url:</div>
+            <a class="item_value" href="https://github.com/fukami421/Eight_-Imitation">github</a>
+          </div>
         </div>
         <div class="work_detail">
           <div v-if="$route.params.id === 'Segalnet'" class="work_description">
@@ -137,6 +152,14 @@
           <div v-else-if="$route.params.id === 'This Home Page'" class="work_description">
             概要:
             <br />現在閲覧している私のポートフォリオサイトです。
+          </div>
+          <div v-else-if="$route.params.id === 'Eight Imitation'" class="work_description">
+            概要:
+            <br />2019年8月にSansanの1dayサマーインターンにiOSエンジニアとして参加した際に、Sansanの自社サービスである名刺交換・管理アプリ
+            <a
+              href="https://8card.net/"
+            >Eight</a>の模擬版を作りました。
+            <br />APIを叩く際はライブラリを使わず、直でAPIを叩く処理を記述しています。このインターンでカメラを利用するためのライブラリ'AVFoundation'の知見を得ることができました。
           </div>
         </div>
         <!-- <div class="profile_content"></div> -->
