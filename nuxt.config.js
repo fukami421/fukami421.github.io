@@ -76,6 +76,7 @@ module.exports = {
       '/work/Peace For Train',
       '/work/Ryustagram',
       '/work/This Home Page',
+      '/work/Eight Imitation',
     ]
   }
 }
