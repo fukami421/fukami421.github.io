@@ -80,7 +80,7 @@
         <div class="flex_area about_size">
           <div class="h3 job_kind">XR Engineer</div>
           <div class="h5">株式会社ARMY</div>
-          <div>2019/04~2019/04(1month)</div>
+          <div>2019/04(1month)</div>
           <br />
           <div>Worked on Hyper Casual Games using Unity</div>
           <div />
@@ -88,7 +88,7 @@
         <div class="flex_area about_size">
           <div class="h3 job_kind">Web Engineer</div>
           <div class="h5">チームラボ株式会社</div>
-          <div>2019/08~2019/08(2weeks)</div>
+          <div>2019/08(2weeks)</div>
           <br />
           <div>Worked on Web Application using AWS, Golang</div>
           <div />
@@ -105,6 +105,22 @@
           <div class="h3 job_kind">iOS Engineer</div>
           <div class="h5">メディア工房</div>
           <div>2019/10~Current</div>
+          <br />
+          <div>Worked on iOS mobile Application using Swift</div>
+          <div />
+        </div>
+        <div class="flex_area about_size">
+          <div class="h3 job_kind">iOS Engineer</div>
+          <div class="h5">CyberAgent</div>
+          <div>2020/02(1month)</div>
+          <br />
+          <div>Worked on iOS mobile Application using Swift</div>
+          <div />
+        </div>
+        <div class="flex_area about_size">
+          <div class="h3 job_kind">iOS Engineer</div>
+          <div class="h5">Wantedly</div>
+          <div>2020/03(2Weeks)</div>
           <br />
           <div>Worked on iOS mobile Application using Swift</div>
           <div />
